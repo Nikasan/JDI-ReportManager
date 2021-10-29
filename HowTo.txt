@@ -1,0 +1,10 @@
+There are three ways to run tests:
+1) using maven
+mvn clean test
+2) using testng.xml
+right click to file \src\test\resources\testng.xml and click Run button (Ctrl+ Shift+F10)
+3) just run from test-class src\test\java\hw8\JdiSimpleExample.java
+
+Logging level sets up in log4j2.xml
+ <Root level="TRACE">
+
